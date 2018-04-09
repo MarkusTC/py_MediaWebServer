@@ -52,7 +52,7 @@ class testHTTPServer_RequestHandler(BaseHTTPRequestHandler):
 
         return
 
-def display_standby(standby):
+def display_standby(standby): #Display in Standby setzen
     if standby:
       PROCNAME = "vcgencmd display_power 1"
     else:
